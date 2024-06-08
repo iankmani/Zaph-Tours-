@@ -2,7 +2,8 @@
   background-image: url("../../assets/hero.jpeg");
   background-size: cover;
   background-position: center;
-
+  display: flex;
+  justify-content: center;
   height: 150vh;
   width: 100%;
 }
@@ -23,14 +24,15 @@
   }
 }
 .text {
-  position: absolute;
+  /* position: absolute;
   top: 80%;
-  left: 20%;
+  left: 20%; */
   font-size: 3.4rem;
   font-weight: 700;
   color: #00215e;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Shadows Into Light", cursive;
   /* margin-top: 140px; */
 }

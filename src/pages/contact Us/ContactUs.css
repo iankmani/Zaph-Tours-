@@ -19,12 +19,8 @@
   /* border: 2px solid red; */
 }
 .contact-container {
-  /* width: 80%; */
   margin: 0px auto;
-  border: 2px solid blue;
-  /* font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal; */
+  /* border: 2px solid blue; */
   background: #ffc55a;
 }
 .contact-container h1 {

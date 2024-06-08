@@ -27,6 +27,11 @@
 }
 .image p {
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1.2px;
+  line-height: 50px;
 }
 .about-us h1 {
   text-align: center;
