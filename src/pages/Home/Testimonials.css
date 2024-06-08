@@ -1,119 +1,109 @@
-
-.testimonial-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    max-width: 800px;
-    margin-inline: auto;
-    background-color: #FFC55A;
-    width: 100%;
-    /* border: 2px solid red; */
-
-
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 800px;
+  margin-inline: auto;
+  background-color: #ffc55a;
+  width: 100%;
+  /* border: 2px solid red; */
 }
-.testimonial{
-    flex: 1;
-
+.testimonial {
+  flex: 1;
 }
-.title{
-    text-align: center;
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 2rem;
+.title {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
 }
-.slider-container{
-    position: relative;
-    user-select: none;
-    padding-inline: 1rem;
-    /* border: 2px solid blue; */
-    
+.slider-container {
+  position: relative;
+  user-select: none;
+  padding-inline: 1rem;
+  /* border: 2px solid blue; */
 }
-img{
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 }
-.slider-container .review-img{
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
+.slider-container .review-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
 }
-.slider-container .content .text{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    color: #00215E;
+.slider-container .content .text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #00215e;
 }
-.slider-container .content .rating{
-    display: inline-block;
-    line-height: 1;
+.slider-container .content .rating {
+  display: inline-block;
+  line-height: 1;
 }
-.slider-container .content .star{
-    font-size: 1.1rem;
-    color: gold;
-
+.slider-container .content .star {
+  font-size: 1.1rem;
+  color: gold;
 }
-.slider-container .content .user{
-    font-weight: 700;
+.slider-container .content .user {
+  font-weight: 700;
 }
-.title h1{
-    text-align: center;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 2rem;
+.title h1 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
 }
-.slider-container .quote{
-    position: absolute;
-    z-index: -1;
-
+.slider-container .quote {
+  position: absolute;
+  z-index: -1;
 }
-.slider-container .top-quote{
-    position: absolute;
-    top: -1rem;
-    left: 1rem;
+.slider-container .top-quote {
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
 }
-.slider-container .bottom-quote{
-    position: absolute;
-    bottom: -3rem;
-    right: -0.5rem;
-    transition: rotate(180deg);
-
+.slider-container .bottom-quote {
+  position: absolute;
+  bottom: -3rem;
+  right: -0.5rem;
+  transition: rotate(180deg);
 }
-.splide__track{
-    border-radius: 1rem;
+.splide__track {
+  border-radius: 1rem;
 }
 
-.splide__slide{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 3rem 1.875rem;
-    border-radius: 1rem;
-    gap: 1rem;
-
+.splide__slide {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 3rem 1.875rem;
+  border-radius: 1rem;
+  gap: 1rem;
 }
-.splide__arrow{
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #505050;
-    font-weight: 300;
-    /* z-index: 1; */  
+.splide__arrow {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #505050;
+  font-weight: 300;
+  /* z-index: 1; */
 }
-.splide__arrow--prev{
-    left: -3.5rem;
-}
-
-.splide__pagination__page{
-    height: 10px;
-    width: 10px;
-    opacity: 1;
-
+.splide__arrow--prev {
+  left: -3.5rem;
 }
 
-.splide__pagination__page.is-active{
-    background-color: #ff6f59;
+.splide__pagination__page {
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #ff6f59;
 }
