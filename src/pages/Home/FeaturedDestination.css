@@ -1,0 +1,57 @@
+.ftDestinations{
+    padding: 2px;
+    background-color: #FFC55A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+.destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 300px;
+}
+.destination-image {
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.destination-image-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.destination-container{
+    background-color: #FFC55A;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.destination-container h1{
+text-align: center;
+font-size: 3rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+.destination-price{
+    border: 2px solid #00215E;
+    text-align: justify;
+    background-color: #00215E;
+    color: white;
+}
+.destination-description{
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.7;
+
+}
+.destination-name{
+    margin-top: 5px;
+}
