@@ -1,10 +1,11 @@
 .packages {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 2px;
   justify-content: center;
   gap: 2rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
 
@@ -14,7 +15,7 @@
   justify-content: center;
   margin-top: 2rem;
   width: 300px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .package-image {
   height: 15rem;

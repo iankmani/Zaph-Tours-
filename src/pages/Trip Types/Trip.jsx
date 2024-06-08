@@ -12,7 +12,7 @@ const Trip = () =>{
     return (
 <div className="trip-container">
         <h1>Trip-Types</h1>
-   <div className="packages">
+    <div className="packages">
        <div className="package">
            <div className="package-image">
                <img src={honeymoon} alt="" className="package-image-img" />
@@ -26,7 +26,8 @@ const Trip = () =>{
            <div className="package-price">
                <p>Price: Ksh 450,000</p>
            </div>
-           <div className="package">
+        </div>
+        <div className="package">
            <div className="package-image">
                <img src={Familyadventure} alt="" className="package-image-img" />
            </div>
@@ -138,9 +139,9 @@ const Trip = () =>{
                <p>Price: Ksh 12,000</p>
            </div>
        </div>
-       </div>
-       </div>
-   </div>
+    </div>
+</div>
+   
    
     )
 }
