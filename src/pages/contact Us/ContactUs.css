@@ -11,6 +11,16 @@
   padding: 40px 60px;
   /* border: 2px solid red; */
 }
+
+@media (max-width: 596px) {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 .contact-right {
   flex-basis: 40%;
   padding: 40px;

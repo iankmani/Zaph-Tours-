@@ -1,12 +1,11 @@
 .packages {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2px;
   justify-content: center;
   gap: 2rem;
   /* border: 2px solid red; */
-  
 }
 
 .package {

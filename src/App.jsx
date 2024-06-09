@@ -17,7 +17,6 @@ function App() {
           <Route path="/Trip Types" element={<Trip />} />
           <Route path="Contact Us" element={<ContactUs />} />
         </Routes>
-        
       </BrowserRouter>
     </>
   );

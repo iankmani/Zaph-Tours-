@@ -9,6 +9,13 @@
   /* margin: 50px; */
   width: 100%;
 }
+.home-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
 .head {
   display: flex;
   flex-direction: column;
@@ -30,32 +37,32 @@
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  max-width: 580px;
-  margin-left: 370px;
+  /* max-width: 580px; */
+  /* margin-left: 370px; */
   gap: 2px;
   /* border: 2px solid blue; */
   margin-top: 60px;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 52.5em) {
+/* @media screen and (max-width: 52.5em) {
   .inputs {
     margin-left: 150px;
   }
-}
-@media screen and (max-width: 45.875em) {
+} */
+/* @media screen and (max-width: 45.875em) {
   .inputs {
     margin-left: 90px;
   }
-}
+} */
 @media screen and (max-width: 29.5em) {
   .inputs {
-    margin-left: 100px;
-    overflow: hidden;
+    /* margin-left: 100px; */
+    /* overflow: hidden; */
     align-items: center;
     justify-content: center;
   }
 }
-@media screen and (max-width: 20.5em) {
+/* @media screen and (max-width: 20.5em) {
   .inputs {
     margin-left: 30px;
   }
@@ -84,18 +91,18 @@
   .inputs {
     margin-left: 10px;
   }
-}
+} */
 
-@media screen and (max-width: 23.4375em) {
+/* @media screen and (max-width: 23.4375em) {
   .inputs {
     max-width: 100px;
   }
-}
+} */
 .input {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 380px;
+  /* width: 380px; */
   height: 70px;
   background: white;
   border-radius: 6px;
@@ -106,7 +113,7 @@
 }
 .input input {
   height: 50px;
-  width: 400px;
+  /* width: 400px; */
   background: transparent;
   border: none;
   outline: none;
